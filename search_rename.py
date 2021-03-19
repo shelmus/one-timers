@@ -5,9 +5,7 @@ import logging
 logging.basicConfig(filename='phone_rename.log',
                     encoding='utf-8', level=logging.DEBUG)
 
-folder = '/data/ftp/FTP/CPE/'
-
-# folder = '/data/ftp/FTP/CPE/10053066/'
+folder = '/data/'
 
 for dirname, dirs, files in walk(folder):
     for file in files:
